@@ -18,7 +18,7 @@ export const FullBlog = ({ blog }: { blog: BlogType }) => {
             <div className="pt-4">{blog.content}</div>
 
             <div className="flex items-center mt-8">
-                <Avatar name={(blog.author.name || "ANONYMOUS").toUpperCase()} className="h-12 w-12 rounded-full" />
+                <Avatar name={(blog.author.name || "ANONYMOUS").toUpperCase()}  />
                 <div className="ml-3">
                     <div className="text-xl font-bold">
                         {(blog.author.name || "ANONYMOUS").toUpperCase()}
