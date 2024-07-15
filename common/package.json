@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "name": "@mukul96/medium-common",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
