@@ -3,12 +3,14 @@ import axios from 'axios';
 import { SignupInput } from '@mukul96/medium-common';
 import { BACKEND_URL } from '../config';
 import { useState } from 'react';
+import { ChangeEvent } from 'react';
+
 type InputBoxType = {
     id: string;
     label: string;
     type: string;
     placeholder: string;
-    value: string;
+    value: string ;
     onChange: (e: ChangeEvent<HTMLInputElement>) => void;
 };
 
