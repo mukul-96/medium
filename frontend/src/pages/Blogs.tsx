@@ -35,7 +35,7 @@ export const Blogs = () => {
                             />
                         ))
                     ) : (
-                        <div className="text-center">No blogs available</div>
+                        <div className="text-center  mt-10">No blogs available</div>
                     )}
                 </div>
             </div>

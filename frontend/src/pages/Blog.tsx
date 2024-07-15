@@ -2,6 +2,7 @@ import { FetchBlog } from "../hooks";
 import { useParams } from "react-router-dom";
 import { FullBlog } from "../Components/FullBlog";
 import { FullBlogSkeleton } from "../Components/FullBlogSkeleton";
+import { Navbar } from "../Components/Navbar";
 
 export const Blog = () => {
   const { id } = useParams();
@@ -21,7 +22,8 @@ export const Blog = () => {
 
   return (
     <div>
-      {blog ? <FullBlog blog={blog} /> : <div>Blog not found</div>}
+      <Navbar></Navbar>
+      {blog ? <FullBlog blog={blog} /> : <div className="mt-8 flex justify-center">Blog not found</div>}
     </div>
   );
 };
